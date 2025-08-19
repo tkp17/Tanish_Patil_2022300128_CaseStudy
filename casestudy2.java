@@ -11,7 +11,7 @@ import java.util.Scanner; //for input
 public class casestudy2 {
     private static final String DB_URL = "jdbc:mysql://localhost:3306/food_delivery_db";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "Tanish#0609"; //providing gibberish password
+    private static final String DB_PASSWORD = "rhehsjjfh"; //providing gibberish password (not revealing)
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
             System.out.print("Number of customers (N): ");
@@ -94,3 +94,4 @@ public class casestudy2 {
             System.err.println("Database operation error");
             e.printStackTrace();}}
 }
+
